@@ -17,8 +17,8 @@ int main()
 		printf("x=%lf",-b/(2*a));
 	if (d>0)
 	{
-		 printf("x1=%lf\n",(-b+sqrt(d))/2*a);
-		 printf("x2=%lf",(-b+sqrt(d))/2*a);
+		 printf("x1=%lf\n",(-b-sqrt(d))/2*a);
+		 printf("x2=%lf"\n,(-b+sqrt(d))/2*a);
 	}
 	else
 		printf("d<0");
